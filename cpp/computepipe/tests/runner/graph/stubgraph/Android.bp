@@ -22,6 +22,9 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: ["arm64/libstubgraphimpl.so"],
         },
+        android_riscv64: {
+            srcs: ["riscv64/libstubgraphimpl.so"],
+        },
         android_arm: {
             srcs: ["arm/libstubgraphimpl.so"],
         },

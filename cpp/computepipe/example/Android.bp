@@ -64,6 +64,9 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: ["lib_arm64/libfacegraph.so"],
         },
+        android_riscv64: {
+            srcs: ["lib_riscv64/libfacegraph.so"],
+        },
         android_arm: {
             srcs: ["lib_arm/libfacegraph.so"],
         },
